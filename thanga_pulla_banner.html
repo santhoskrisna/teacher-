@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thanga Pulla 💛</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a0a00;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+  }
+
+  @keyframes float1 { 0%,100%{transform:translateY(0) rotate(-10deg);} 50%{transform:translateY(-18px) rotate(10deg);} }
+  @keyframes float2 { 0%,100%{transform:translateY(0) rotate(8deg);} 50%{transform:translateY(-22px) rotate(-8deg);} }
+  @keyframes float3 { 0%,100%{transform:translateY(0) rotate(-5deg);} 50%{transform:translateY(-14px) rotate(15deg);} }
+  @keyframes pulse { 0%,100%{transform:scale(1);} 50%{transform:scale(1.08);} }
+  @keyframes shimmer { 0%{background-position:0% 50%;} 50%{background-position:100% 50%;} 100%{background-position:0% 50%;} }
+  @keyframes spin-slow { 0%{transform:rotate(0deg);} 100%{transform:rotate(360deg);} }
+  @keyframes twinkle { 0%,100%{opacity:1;transform:scale(1);} 50%{opacity:0.4;transform:scale(0.7);} }
+  @keyframes badge-bounce { 0%,100%{transform:translateY(0) rotate(-3deg);} 50%{transform:translateY(-6px) rotate(3deg);} }
+  @keyframes glow-pulse { 0%,100%{box-shadow:0 0 40px #f5c518, 0 0 80px #ff69b4, 0 0 120px #f5c51855;} 50%{box-shadow:0 0 60px #ffd700, 0 0 110px #ff1493, 0 0 160px #ffd70066;} }
+</style>
+</head>
+<body>
+
+<div style="
+  position: relative;
+  width: 100%;
+  max-width: 780px;
+  min-height: 340px;
+  border-radius: 32px;
+  padding: 50px 40px 44px;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff6a00 0%, #ffb347 20%, #ffd700 40%, #ff69b4 65%, #ff1493 85%, #c0392b 100%);
+  background-size: 300% 300%;
+  animation: shimmer 5s ease infinite, glow-pulse 3s ease-in-out infinite;
+  border: 3px solid rgba(255,255,255,0.35);
+">
+
+  <!-- Glitter stars -->
+  <span style="position:absolute;top:14px;left:18px;font-size:18px;animation:twinkle 1.4s ease-in-out infinite;">✨</span>
+  <span style="position:absolute;top:10px;right:22px;font-size:22px;animation:twinkle 1.8s ease-in-out infinite 0.3s;">⭐</span>
+  <span style="position:absolute;bottom:16px;left:14px;font-size:16px;animation:twinkle 1.2s ease-in-out infinite 0.6s;">✨</span>
+  <span style="position:absolute;bottom:12px;right:18px;font-size:20px;animation:twinkle 2s ease-in-out infinite 0.1s;">⭐</span>
+  <span style="position:absolute;top:50%;left:6px;font-size:14px;animation:twinkle 1.6s ease-in-out infinite 0.9s;">✨</span>
+  <span style="position:absolute;top:50%;right:6px;font-size:14px;animation:twinkle 1.3s ease-in-out infinite 0.4s;">✨</span>
+
+  <!-- Floating hearts -->
+  <span style="position:absolute;top:22px;left:52px;font-size:32px;animation:float1 3.2s ease-in-out infinite;">💛</span>
+  <span style="position:absolute;top:18px;right:55px;font-size:28px;animation:float2 2.8s ease-in-out infinite 0.5s;">💖</span>
+  <span style="position:absolute;bottom:24px;left:38px;font-size:30px;animation:float3 3.5s ease-in-out infinite 0.9s;">❤️</span>
+  <span style="position:absolute;bottom:20px;right:42px;font-size:26px;animation:float1 2.6s ease-in-out infinite 1.2s;">💗</span>
+  <span style="position:absolute;top:44%;left:16px;font-size:22px;animation:float2 3.8s ease-in-out infinite 0.3s;">💝</span>
+  <span style="position:absolute;top:38%;right:14px;font-size:22px;animation:float3 3.1s ease-in-out infinite 0.7s;">💛</span>
+
+  <!-- Frosted inner card -->
+  <div style="
+    position: relative;
+    background: rgba(255,255,255,0.18);
+    backdrop-filter: blur(6px);
+    border-radius: 24px;
+    padding: 38px 32px 34px;
+    border: 2px solid rgba(255,255,255,0.4);
+    box-shadow: inset 0 2px 20px rgba(255,255,255,0.15);
+  ">
+
+    <!-- Crown row -->
+    <div style="font-size:36px;letter-spacing:8px;margin-bottom:6px;animation:pulse 2s ease-in-out infinite;">
+      👑 😍 👑
+    </div>
+
+    <!-- Main Title -->
+    <div style="
+      font-family: 'Pacifico', cursive;
+      font-size: clamp(42px, 10vw, 76px);
+      color: #fff;
+      text-shadow: 3px 3px 0 #c0392b, 0 0 30px #ffd700, 0 0 60px #ff69b4;
+      line-height: 1.1;
+      letter-spacing: 2px;
+      animation: pulse 2.5s ease-in-out infinite;
+      margin-bottom: 8px;
+    ">
+      Thanga Pulla
+    </div>
+
+    <!-- Gold underline decoration -->
+    <div style="
+      width: 70%;
+      height: 4px;
+      margin: 0 auto 18px;
+      border-radius: 99px;
+      background: linear-gradient(90deg, transparent, #ffd700, #fff, #ffd700, transparent);
+      box-shadow: 0 0 12px #ffd700;
+    "></div>
+
+    <!-- Subtitle badge -->
+    <div style="
+      display: inline-block;
+      background: linear-gradient(135deg, #2c1a00 0%, #6b3a00 50%, #2c1a00 100%);
+      color: #ffd700;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 900;
+      font-size: clamp(14px, 3.5vw, 20px);
+      padding: 10px 26px;
+      border-radius: 50px;
+      border: 2px solid #ffd700;
+      box-shadow: 0 0 18px #ffd70088, 0 4px 16px rgba(0,0,0,0.4);
+      letter-spacing: 0.5px;
+      animation: badge-bounce 2.4s ease-in-out infinite;
+      margin-bottom: 22px;
+    ">
+      🏅 Official Gold Standard English Teacher 😎💛
+    </div>
+
+    <!-- Emoji strip -->
+    <div style="font-size:clamp(22px,5vw,34px);letter-spacing:6px;margin-bottom:20px;">
+      😂 🔥 💛 😘 💖 🔥 😂
+    </div>
+
+    <!-- Tagline -->
+    <div style="
+      color: rgba(255,255,255,0.96);
+      font-size: clamp(13px, 3vw, 17px);
+      font-weight: 700;
+      background: rgba(0,0,0,0.22);
+      display: inline-block;
+      padding: 8px 24px;
+      border-radius: 50px;
+      border: 1.5px solid rgba(255,255,255,0.3);
+      letter-spacing: 0.3px;
+      margin-bottom: 20px;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    ">
+      ✨ Unmatched. Unfiltered. Unapologetically Cute. ✨
+    </div>
+
+    <!-- Bottom hearts row -->
+    <div style="font-size:clamp(18px,4vw,28px);letter-spacing:4px;animation:pulse 3s ease-in-out infinite 0.5s;">
+      ❤️ 💛 💖 💝 💗 💛 ❤️
+    </div>
+
+  </div><!-- end inner card -->
+
+</div><!-- end banner -->
+
+</body>
+</html>
